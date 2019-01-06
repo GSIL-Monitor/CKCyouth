@@ -1,0 +1,16 @@
+<view class="container">
+
+  <image class="image_frame'" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/bg1.png" mode="scaleToFill"> </image>
+
+  <view class="inputView">
+    <!-- <label class="loginLab">账号</label> -->
+    <view class="inputText">
+      <input placeholder="请输入学号" maxlength='10' type='number' bindinput="phoneInput" cursor-spacing='120' />
+    </view>
+
+    <button class='Btn' style='opacity:{{Btn_opacity}};' bindgetuserinfo="login" bindtouchstart='Btn_touched' bindtouchend='Btn_touchend' open-type='getUserInfo'>
+      <image class="loginBtn" src="../picture/login.png" mode="aspectFit"></image>
+    </button>
+  </view>
+
+</view>

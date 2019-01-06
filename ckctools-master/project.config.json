@@ -1,0 +1,109 @@
+{
+	"miniprogramRoot": "client/",
+	"qcloudRoot": "server/",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx7450818772eb9a0b",
+	"projectname": "CKCYOUTH",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 11,
+			"list": [
+				{
+					"id": -1,
+					"name": "main",
+					"pathName": "pages/main/main",
+					"query": "login=1"
+				},
+				{
+					"id": -1,
+					"name": "main非法进入",
+					"pathName": "pages/main/main",
+					"query": "login=0"
+				},
+				{
+					"id": 2,
+					"name": "活动页面",
+					"pathName": "pages/activity/activity",
+					"query": "userinfo={\"account\":\"3170102889\",\"nickname\":\"七月的风\"}&situation=1"
+				},
+				{
+					"id": 3,
+					"name": "查询1-17",
+					"pathName": "pages/inquire/inquire",
+					"query": "type=1&userinfo={\"account\":\"3170106086\",\"nickname\":\"七月的风\"}"
+				},
+				{
+					"id": 4,
+					"name": "查询2-15",
+					"pathName": "pages/inquire/inquire",
+					"query": "type=2&userinfo={\"account\":\"3150104638\",\"nickname\":\"七月的风\"}"
+				},
+				{
+					"id": 5,
+					"name": "查询3-17",
+					"pathName": "pages/inquire/inquire",
+					"query": "type=3&userinfo={\"account\":\"3170102889\",\"nickname\":\"七月的风\"}"
+				},
+				{
+					"id": 6,
+					"name": "查询1-16-err",
+					"pathName": "pages/inquire/inquire",
+					"query": "type=1&userinfo={\"account\":\"3160103333\",\"nickname\":\"七月的风\"}"
+				},
+				{
+					"id": -1,
+					"name": "查询3-16",
+					"pathName": "pages/inquire/inquire",
+					"query": "type=3&userinfo={\"account\":\"3160103212\",\"nickname\":\"七月的风\"}"
+				},
+				{
+					"id": 8,
+					"name": "查询3-16-err",
+					"pathName": "pages/inquire/inquire",
+					"query": "type=3&userinfo={\"account\":\"3160103333\",\"nickname\":\"七月的风\"}"
+				},
+				{
+					"id": -1,
+					"name": "查询2-16-err",
+					"pathName": "pages/inquire/inquire",
+					"query": "type=1&userinfo={\"account\":\"3160103333\",\"nickname\":\"七月的风\"}"
+				},
+				{
+					"id": -1,
+					"name": "活动快速入口",
+					"pathName": "pages/quickEntry/quickEntry",
+					"query": "situation=1",
+					"scene": "1047"
+				},
+				{
+					"id": 11,
+					"name": "查询",
+					"pathName": "pages/inquire/inquire",
+					"query": "",
+					"scene": "1001"
+				}
+			]
+		}
+	}
+}

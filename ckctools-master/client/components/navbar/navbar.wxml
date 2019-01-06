@@ -1,0 +1,23 @@
+<!--components/navbar.wxml-->
+  <!-- 导航 -->
+  <view style="display:{{open ? 'none' : 'inline'}}">
+        <image class='navBtn' bindtap="showview"  src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/menu.png"></image>
+  </view>
+  <!-- 侧滑栏 -->
+  <view class="page_tab {{open ? 'c-state1' : ''}}">
+    <view class="page_tab_content">
+      <navigator url='../inquire/inquire'>
+        <image class="image" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/搜索.png"></image>
+        <view class="list">查询</view>
+      </navigator>
+      <navigator url='../inquire/inquire'>  <!--待修改-->
+        <image class="image" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/时刻表.png"></image>
+        <view class="list">管理</view>
+      </navigator>
+      <navigator url='../inquire/inquire'>
+        <image class="image" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/查询出发到达.png"></image>
+        <view class="list">切换账号</view>
+      </navigator>
+    </view>
+  </view>
+  <view class="bg" bindtap="showview" style="display:{{open?'inline':'none'}}"></view>

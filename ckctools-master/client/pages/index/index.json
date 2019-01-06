@@ -1,0 +1,7 @@
+{
+  "disableScroll": true,
+  "backgroundColor": "#ffddad",
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar"
+  }
+}

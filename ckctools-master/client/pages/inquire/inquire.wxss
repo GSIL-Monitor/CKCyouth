@@ -1,0 +1,110 @@
+/**基础风格样式**/
+@import '/towxml/style/main.wxss';
+
+/**如果页面有动态主题切换，则需要将使用到的样式全部引入**/
+
+/**主题配色（浅色样式）**/
+@import '/towxml/style/theme/light.wxss';
+
+/**主题配色（深色样式）**/
+@import '/towxml/style/theme/dark.wxss';
+
+@import '/towxml/style/theme/darkblue.wxss';
+page{
+  background-color: #353a51;
+}
+
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color:#ffddad;
+  z-index: 0;
+  padding: 0;
+}
+/*表单内容*/
+
+.login-form {
+  position: absolute;
+  top: 200rpx;
+ /* bottom: 550rpx;*/
+  left: 50rpx;
+  display: flex;
+  flex-direction: column;
+  height: 1050rpx;
+  width: 650rpx;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1); 
+}
+/*导航栏*/
+.navi{
+  height:80rpx;
+  box-shadow: 0px 0px 5px 0px rgba(204, 188, 188, 0.932); 
+  padding-top:10px;
+  padding-left:20px;
+  display: inline-block;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.navi .text{
+    height: 60rpx;
+    display: inline-block;
+}
+.navi .btn{
+  width:30rpx;
+  height:50rpx;  
+  border:none;
+  margin-left: 6px;
+  margin-right: 12px;
+  display: inline-block;
+}
+.select_box {
+    background-color:white;
+    width: 200rpx;
+    position: absolute;
+    top: 80rpx;
+    z-index: 1;
+    overflow: hidden;
+    animation: myfirst 0.5s;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.356); 
+}
+ 
+@keyframes myfirst {
+    from {
+        height: 0;
+    }
+ 
+    to {
+        height: 180rpx;
+    }
+}
+ 
+.select_one {
+    height: 60rpx;
+    line-height: 60rpx;
+    border-bottom: 1px solid #ccc;
+}
+
+/*查询结果*/
+.contents{
+  height:440rpx;
+  box-shadow: 0px 0px 5px 0px rgba(204, 188, 188, 0.932); 
+  padding-top:20px;
+  padding-left:40px;
+  line-height: 40px;
+  display: inline-block;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.contents .item{
+  height: 60rpx;
+  padding-right:160rpx;
+  display: inline-block;
+}
+.contents .data{
+  height:60rpx;
+  display:inline-block;
+}

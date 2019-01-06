@@ -1,0 +1,7 @@
+{
+  "disableScroll":true,
+  "navigationBarTitleText": "竺青年",
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "backgroundColor": "#353a51",
+  "navigationBarTitleText": "竺院团委查询平台",
+  "usingComponents": {
+    "navbar": "../../components/navbar/navbar"
+  }
+}

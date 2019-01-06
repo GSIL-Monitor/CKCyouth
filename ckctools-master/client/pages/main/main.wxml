@@ -1,0 +1,47 @@
+<view class="container">
+<!--
+  <image class="image_frame'" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/bg1.png" mode="scaleToFill"> </image>
+
+  <image class="image_frame'" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/bg1_move.gif" mode="aspectFit"> </image>
+
+  <view class='user_info' bindtap='logout'>
+    <image class='user_avatar' src='{{userinfo.avatarUrl}}' mode="aspectFit"></image>
+    <view class='user_text'>{{userinfo.nickname}}</view>
+    <view class='user_text'>学号:{{userinfo.account}}</view>
+  </view>
+
+  <view class='info_list'>
+    <view class='list_item' wx:for='{{info_list}}' id='{{index}}' bindtap='to_activity' bindtouchstart='list_touched' bindtouchend='list_touchend' style='opacity:{{item.opacity}};'>
+      <view class='list_container'>
+      <!--  <image class='list_img' src='{{item.img_src}}' mode="aspectFit"></image>-->
+<!--
+        <view class='list_header'>{{item.header}}</view>
+      </view>
+      <view class='list_text'>{{item.text}}</view>
+    </view>
+  </view>
+
+-->
+ <image class="ckcyouth" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/ckcyouth.png" mode="aspectFit"></image>
+
+  <view class="login-form">
+    <image class="formTitleImage" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/竺青年.png" mode="aspectFit"></image>
+    <view class="formTitle">竺青年管理系统</view>
+    <view class="formTitle">欢迎您，今天也要加油呀！</view>
+    <view style="display:inline-block">
+      <button class="Btn2" hover-class='Btn2-after' hover-start-time='0'>
+        <image class="btnimage" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/消息.png"></image>
+        <view class="btn_text" style="color:black">消息</view>
+      </button>
+      <button class="Btn" hover-class='Btn-after' hover-start-time='0'>
+        <image class="btnimage" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/关闭.png"></image>
+        <view class="btn_text">退出</view>
+      </button>
+    </view>
+  </view>
+  <view class="copyright">Copyright © 2018-2019 竺院团委 ckcyouth.com All Rights Reserved.</view>
+</view>
+
+<view>
+  <navbar id="navbar"></navbar>
+</view>

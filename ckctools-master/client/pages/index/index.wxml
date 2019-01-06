@@ -1,0 +1,54 @@
+<view class="container">
+<!--
+  <image class="image_frame'" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/bg1.png" mode="scaleToFill"> </image>
+
+  <image class="image_frame'" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/bg1_move.gif" mode="aspectFit"> </image>
+
+  <view class='top_notice'>14/15/16/18级输入学号自动填充密码；17级为竺院综素平台（ckcyouth.zju.edu.cn）的密码，初始密码123456</view>
+
+  <image class="ke" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/小可01.png" mode="aspectFit"> </image>
+  <image class="{{showView?'ke':'ke_hide'}}" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/小可02.png" mode="aspectFit">
+
+  </image>
+-->
+  <!-- <view class="login-icon">
+    <image class="login-img" src=""></image>
+  </view> -->
+
+  <!--ckcyouth-->
+  <image class="ckcyouth" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/ckcyouth.png" mode="aspectFit"></image>
+
+  <view class="login-form">
+    <image class="formTitleImage" src="https://lg-4ltngeiq-1256989667.cos.ap-shanghai.myqcloud.com/竺青年.png" mode="aspectFit"></image>
+    <view class="formTitle">竺青年管理系统</view>
+    <!--账号-->
+    <view class="inputView">
+      <!-- <label class="loginLab">账号</label> -->
+      <input class="inputText" placeholder="请输入学号" maxlength='10' type='number' bindinput="phoneInput" cursor-spacing='120'/>
+    </view>
+    <!-- <view class="line"></view> -->
+
+    <!--密码-->
+    <view class="inputView">
+      <!-- <image class="inputImage" src="../picture/key.png"></image> -->
+      <!-- <label class="loginLab">密码</label> -->
+      <input class="inputText" password="{{hide_psword}}" confirm-type='done' placeholder="请输入密码" bindinput="passwordInput" bindfocus="biyan" bindblur="zhengyan" disabled='{{password_disabled}}' value='{{password}}' cursor-spacing='60' />
+      <image style='position:absolute;width:24px;height:24px;top:5px;right:70rpx;' hidden='{{!hide_psword}}' catchtap='psword_statu' id='0' src='../picture/show.png'></image>
+      <image style='position:absolute;width:24px;height:24px;top:5px;right:70rpx;' hidden='{{hide_psword}}' catchtap='psword_statu' id='1' src='../picture/hide.png'></image>
+    </view>
+
+    <!--按钮-->
+    <button class=".Btn" bindgetuserinfo="login" bindtouchstart='Btn_touched' bindtouchend='Btn_touchend' open-type='getUserInfo' hover-class='Btn-after' hover-start-time='0'>
+      <view class="log_in">登录</view>
+    </button>
+
+    <!-- <view class="loginBtnView">
+      <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button>
+    </view> -->
+  </view>
+  <view class="copyright">Copyright © 2018-2019 竺院团委 ckcyouth.com All Rights Reserved.</view>
+</view>
+
+<view>
+  <navbar id="navbar"></navbar>
+</view>

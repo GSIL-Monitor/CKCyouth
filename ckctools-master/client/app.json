@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/activity/activity",
+    "pages/inquire/inquire",
+    "pages/quickEntry/quickEntry"
+  ],
+  "window": {
+    "backgroundColor": "#ffddad",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationStyle": "custom"
+  }
+}

@@ -1,0 +1,43 @@
+<!--
+<import src="/towxml/entry.wxml"/>
+<template is="entry" data="{{...article}}"/>
+-->
+<view class="container">
+  <view class="login-form">
+  <!-- 导航栏 -->
+    <view class="navi">
+        <view class='text'>{{year}}</view>
+        <view class='btn' bindtap='bindShowMsg'>▼</view>
+        <view class='text'>学年度</view>
+        <!-- 下拉需要显示的列表 -->
+          <view class="select_box" wx:if="{{select}}">
+             <view class="select_one" bindtap="mySelect" data-name="2018-2019">2018-2019</view>
+             <view class="select_one" bindtap="mySelect" data-name="2017-2018">2017-2018</view>
+             <view class="select_one" bindtap="mySelect" data-name="2016-2017">2016-2017</view>
+         </view>
+    </view>
+  <!-- 查询结果 -->
+    <view class="contents">
+      <view class='type'>
+        <view class='item'>综素</view>
+        <view class='data'>0.0</view>
+      </view>
+      <view class='type'>
+        <view class='item'>二课</view>
+        <view class='data'>0.0</view>
+      </view>
+      <view class='type'>
+        <view class='item'>三课</view>
+        <view class='data'>0.0</view>
+      </view>
+      <view class='type'>
+        <view class='item'>四课</view>
+        <view class='data'>0.0</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <navbar id="navbar"></navbar>
+</view>

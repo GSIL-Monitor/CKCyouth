@@ -1,0 +1,210 @@
+page{
+  background-color: #353a51;
+  height: 100%;
+  open: false;
+}
+
+.image_frame {
+  position: absolute;
+  bottom: 0rpx;
+  margin-top: 50rpx;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color:#ffddad;
+  z-index: 0;
+  padding: 0;
+}
+
+.top_notice {
+  position: absolute;
+  bottom:0rpx;
+  width: 700rpx;
+  padding: 4px 25rpx 19px 25rpx;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  color: #353535;
+  word-break: break-all;
+  
+}
+
+.ke {
+  position: absolute;
+  width: 300rpx;
+  height: 300rpx;
+  top: 150rpx;
+  /* display: flex; */
+  left: 225rpx;
+}
+
+.ke_hide {
+  display: none;
+}
+
+.login-img {
+  width: 750rpx;
+  opacity: 0;
+}
+
+/*ckcyouth*/
+.ckcyouth {
+  position: relative;
+  top: 30px;
+  transform: scale(2.5);
+  width: 200rpx;
+  align-self: center;
+  height: 270rpx;
+  display: flex;
+}
+/*表单内容*/
+
+.login-form {
+  position: absolute;
+  top: 300rpx;
+ /* bottom: 550rpx;*/
+  left: 50rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 750rpx;
+  width: 650rpx;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1); 
+}
+
+.formTitleImage {
+  position: relative;
+  width: 200rpx;
+  align-self: center;
+  height: 270rpx;
+  margin-top: -30px;
+}
+.formTitle {
+  position:relative;
+  align-self: center;
+  margin-bottom: 10px;
+}
+.inputView {
+  position: relative;
+  margin-top: 0rpx;
+  margin-left: 70rpx;
+  height: 55px;
+  width: 750rpx;
+  /* background-color: rgba(0, 255, 255, 1); */
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+/* .inputView2 {
+  position: absolute;
+  bottom: 42%;
+  left: 20%;
+  background-color: rgba(0, 255, 255, 0);
+  line-height: 44px;
+} */
+
+/*输入框*/
+/*
+.inputImage {
+  position: relative;
+  left: 100rpx;
+  background-color: blue; 
+  width: 32px;
+  height: 32px;
+  top: 3px;
+}
+*/
+.loginLab {
+  position: relative;
+  left: 150rpx;
+  width: 40px;
+  /* background-color: green;  *//* margin: 13px 0 0 0; */
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputText {
+  position: relative;
+  margin-top: 10px;
+  padding-left: 10px;
+  left: 30rpx;
+  width: 450rpx;
+  height: 80rpx;
+  text-align: left;
+  color: black;
+  background-color: white;
+  border: solid;
+  border-color: rgba(216, 203, 203, 0.466);
+  border-radius: 20px;
+  font-size: 12px;
+  /* margin: 10px 0 0 0; */
+}
+
+.line {
+  position: absolute;
+  bottom: 41%;
+  left: 18%;
+  width: 65%;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 1px;
+  opacity: 0.5;
+}
+
+/*按钮*/
+
+.Btn {
+  height: 80rpx;
+  width: 180rpx;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 25rpx;
+  background-color: rgba(78, 138, 250, 0.849);
+}
+
+.Btn-after {
+  height: 80rpx;
+  width: 180rpx;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 25rpx;
+  background-color: rgba(78, 138, 250, 0.486);
+}
+/*
+.loginBtn {
+  position: relative;
+  width: 200rpx;
+  align-self: center;
+  height: 100rpx;
+}
+*/
+.log_in {
+  position:relative;
+  color: white;
+  align-self: center;
+  top: -3px;
+  font-size: 16px;
+}
+.c1 {
+  position: absolute;
+  width: 2%;
+}
+.copyright {
+  position:absolute;
+  bottom: 55px;
+  left: 10px;
+  align-self: center;
+  color:grey;
+  font-size: 12px;
+}
+
